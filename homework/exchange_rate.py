@@ -33,7 +33,7 @@ while True:
         print(f'Response time: ', response_time, 'ms')
         print('--- --- --- --- ---')
 
-        # export data to CSV file
+        # export the data to CSV file
         f = open("./file.csv", "a")
         f.write("{},{} ms,{} gbp\n".format(date_time, response_time, ex_rate))
         f.close()
