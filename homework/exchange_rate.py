@@ -53,4 +53,4 @@ while True:
     # functions calling
     get_currency_rate()
     timestamp()
-    time.sleep(2)
+    time.sleep(15)
