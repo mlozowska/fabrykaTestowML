@@ -42,7 +42,7 @@ while True:
     # Driver code
     if __name__ == '__main__':
         # store API key as a variable for easier access
-        api_key = 'c514d9fa345f40258e71cbc4df2e22e2'
+        api_key = '339d4e7197334541aeda4942d4e854ad'
 
         # currency code
         to_currency = 'GBP'
