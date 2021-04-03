@@ -1,7 +1,7 @@
 """
 identify and navigate to elements
 scroll down the page to the specific element
-capture ans save a screenshot
+capture and save a screenshot
 """
 from selenium import webdriver
 
