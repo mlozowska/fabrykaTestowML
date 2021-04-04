@@ -20,26 +20,22 @@ print("2.Odejmowanie")
 print("3.Mnożenie")
 print("4.Dzielenie")
 
+# tutaj prostsza wersja :)
 while True:
     choice = input("Wybierz operację(1/2/3/4): ")
 
     if choice in ('1', '2', '3', '4'):
-
-        num_1 = float(input("Podaj pierwszą liczbę: "))
-        num_2 = float(input("Podaj drugą liczbę: "))
-
+        num1 = float(input("Podaj pierwszą liczbę: "))
+        num2 = float(input("Podaj drugą liczbę: "))
         if choice == '1':
-            print(f'{num_1} + {num_2} =',
-                  add(num_1, num_2))
+            print(add(num1,num2))
         elif choice == '2':
-            print(f'{num_1} - {num_2} =',
-                  subtract(num_1, num_2))
+            print(subtract(num1, num2))
         elif choice == '3':
-            print(f'{num_1} * {num_2} =',
-                  multiply(num_1, num_2))
+            print(multiply(num1, num2))
         elif choice == '4':
-            print(f'{num_1} / {num_2} =',
-                  divide(num_1, num_2))
-        break
+            print(divide(num1, num2))
+
     else:
         print("Błędna wartość, podaj poprawną")
+    break #break po elsie powinien byc
